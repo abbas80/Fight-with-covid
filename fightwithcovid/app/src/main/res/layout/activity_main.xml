@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/verify_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_track"
+        android:text="verify otp"
+        app:layout_constraintEnd_toEndOf="@+id/opt_et"
+        app:layout_constraintStart_toStartOf="@+id/opt_et"
+        app:layout_constraintTop_toBottomOf="@+id/opt_et" />
+
+
+    <EditText
+        android:id="@+id/phone_et"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/btn_track"
+        android:padding="5dp"
+        android:hint="Phone Number with +91"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/send_otp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_track"
+        android:text="send otp"
+        app:layout_constraintEnd_toEndOf="@+id/phone_et"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="@+id/phone_et"
+        app:layout_constraintTop_toBottomOf="@+id/phone_et" />
+
+    <EditText
+        android:id="@+id/opt_et"
+        android:layout_width="200dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btn_track"
+        android:hint="Enter OTP"
+        android:padding="5dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/send_otp"
+        app:layout_constraintStart_toStartOf="@+id/send_otp"
+
+        app:layout_constraintTop_toBottomOf="@+id/send_otp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="FIGHT COVID "
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/btn_track"
+        android:text="Register"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/verify_btn"
+        app:layout_constraintStart_toStartOf="@+id/verify_btn"
+        app:layout_constraintTop_toBottomOf="@+id/verify_btn" />
+</android.support.constraint.ConstraintLayout>

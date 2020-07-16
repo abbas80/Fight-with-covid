@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">covid</string>
+    <string name="title_activity_track">Map</string>
+</resources>
