@@ -1,6 +1,13 @@
 # Fight-with-covid
 We have developed a mobile application that helps in tracking the INFECTION OF COVID( CHAIN BREAKING )that can be installed by everyone to fight with a worldwide pandemic like COVID-19. 
 
+![](ui.jpg)
+
+![](Untitled.mp4)
+
+![](p2.jpeg)
+
+![](p5.jpeg)
 # It will help the society in several ways:- 
 1. Our application will provide the most exclusively updated data and will also provide meaningful statistics to aware the people about the seriousness of the situation in their area.
  2. It will also provide a vibration alert(with the help of GPS which would be always ON for our app) for whenever two persons having our app will come closer than 1.5 meters, which is necessary in order to maintain the social distancing to combat with this pandemic right now.
